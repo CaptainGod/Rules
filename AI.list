@@ -1,21 +1,13 @@
 # NAME: Claude
-# AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-07-20 23:25:19
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 3
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
 # NAME: OpenAI
-# AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-07-20 23:25:19
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 12
-# TOTAL: 13
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -31,11 +23,8 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
 
 # NAME: Bing
-# AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:25:18
-# DOMAIN-SUFFIX: 23
-# TOTAL: 23
+# UPDATED: 2023-07-20
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,bing.net
@@ -61,10 +50,8 @@ DOMAIN-SUFFIX,renovacionoffice.com
 DOMAIN-SUFFIX,sprinklesapp.com
 
 # NAME: Bard
-# AUTHOR: blackmatrix7
-# https://bard.google.com/
-# created by limbopro
-# repo:https://github.com/limbopro/Profiles4limbo/
+# REPO: https://github.com/limbopro/Profiles4limbo/
+# UPDATED: 2023-07-20
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
