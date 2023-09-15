@@ -1,60 +1,63 @@
 # NAME: Claude
+# AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-07-20 23:25:19
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
+HOST,cdn.usefathom.com,🤖 AI Platforms
+HOST-SUFFIX,anthropic.com,🤖 AI Platforms
+HOST-SUFFIX,claude.ai,🤖 AI Platforms
 
 # NAME: OpenAI
+# AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:25:19
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-KEYWORD,openai
+# UPDATED: 2023-07-20 23:25:18
+HOST-SUFFIX,ai.com,🤖 AI Platforms
+HOST-SUFFIX,auth0.com,🤖 AI Platforms
+HOST-SUFFIX,challenges.cloudflare.com,🤖 AI Platforms
+HOST-SUFFIX,client-api.arkoselabs.com,🤖 AI Platforms
+HOST-SUFFIX,events.statsigapi.net,🤖 AI Platforms
+HOST-SUFFIX,featuregates.org,🤖 AI Platforms
+HOST-SUFFIX,identrust.com,🤖 AI Platforms
+HOST-SUFFIX,intercom.io,🤖 AI Platforms
+HOST-SUFFIX,intercomcdn.com,🤖 AI Platforms
+HOST-SUFFIX,poe.com,🤖 AI Platforms
+HOST-SUFFIX,sentry.io,🤖 AI Platforms
+HOST-SUFFIX,stripe.com,🤖 AI Platforms
+HOST-KEYWORD,🤖 AI Platforms,🤖 AI Platforms
+
+# https://bard.google.com/
+# created by limbopro
+# repo:https://github.com/limbopro/Profiles4limbo/
+DOMAIN-SUFFIX,google.com,🤖 AI Platforms
+DOMAIN-SUFFIX,apis.google.com,🤖 AI Platforms
+DOMAIN-SUFFIX,bard.google.com,🤖 AI Platforms
+DOMAIN-SUFFIX,in.appcenter.ms,🤖 AI Platforms
+DOMAIN-SUFFIX,ogs.google.com,🤖 AI Platforms
+DOMAIN-SUFFIX,www.google.com,🤖 AI Platforms
 
 # NAME: Bing
+# AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.com.cn
-DOMAIN-SUFFIX,bing.net
-DOMAIN-SUFFIX,bingads.com
-DOMAIN-SUFFIX,bingagencyawards.com
-DOMAIN-SUFFIX,bingapistatistics.com
-DOMAIN-SUFFIX,bingsandbox.com
-DOMAIN-SUFFIX,bingvisualsearch.com
-DOMAIN-SUFFIX,bingworld.com
-DOMAIN-SUFFIX,bluehatnights.com
-DOMAIN-SUFFIX,dictate.ms
-DOMAIN-SUFFIX,ditu.live.com
-DOMAIN-SUFFIX,flipwithsurface.com
-DOMAIN-SUFFIX,masalladeloslimites.com
-DOMAIN-SUFFIX,microsoft-give.com
-DOMAIN-SUFFIX,microsoftcloudsummit.com
-DOMAIN-SUFFIX,microsoftdiplomados.com
-DOMAIN-SUFFIX,microsoftlatamholiday.com
-DOMAIN-SUFFIX,microsoftmxfilantropia.com
-DOMAIN-SUFFIX,microsoftpartnersolutions.com
-DOMAIN-SUFFIX,msunlimitedcloudsummit.com
-DOMAIN-SUFFIX,renovacionoffice.com
-DOMAIN-SUFFIX,sprinklesapp.com
-
-# NAME: Bard
-# REPO: https://github.com/limbopro/Profiles4limbo/
-# UPDATED: 2023-07-20
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,in.appcenter.ms
-DOMAIN-SUFFIX,ogs.google.com
-DOMAIN-SUFFIX,www.google.com
+# UPDATED: 2023-07-20 23:25:18
+HOST-SUFFIX,bing.com,🤖 AI Platforms
+HOST-SUFFIX,bing.com.cn,🤖 AI Platforms
+HOST-SUFFIX,bing.net,🤖 AI Platforms
+HOST-SUFFIX,bingads.com,🤖 AI Platforms
+HOST-SUFFIX,bingagencyawards.com,🤖 AI Platforms
+HOST-SUFFIX,bingapistatistics.com,🤖 AI Platforms
+HOST-SUFFIX,bingsandbox.com,🤖 AI Platforms
+HOST-SUFFIX,bingvisualsearch.com,🤖 AI Platforms
+HOST-SUFFIX,bingworld.com,🤖 AI Platforms
+HOST-SUFFIX,bluehatnights.com,🤖 AI Platforms
+HOST-SUFFIX,dictate.ms,🤖 AI Platforms
+HOST-SUFFIX,ditu.live.com,🤖 AI Platforms
+HOST-SUFFIX,flipwithsurface.com,🤖 AI Platforms
+HOST-SUFFIX,masalladeloslimites.com,🤖 AI Platforms
+HOST-SUFFIX,microsoft-give.com,🤖 AI Platforms
+HOST-SUFFIX,microsoftcloudsummit.com,🤖 AI Platforms
+HOST-SUFFIX,microsoftdiplomados.com,🤖 AI Platforms
+HOST-SUFFIX,microsoftlatamholiday.com,🤖 AI Platforms
+HOST-SUFFIX,microsoftmxfilantropia.com,🤖 AI Platforms
+HOST-SUFFIX,microsoftpartnersolutions.com,🤖 AI Platforms
+HOST-SUFFIX,msunlimitedcloudsummit.com,🤖 AI Platforms
+HOST-SUFFIX,renovacionoffice.com,🤖 AI Platforms
+HOST-SUFFIX,sprinklesapp.com,🤖 AI Platforms
