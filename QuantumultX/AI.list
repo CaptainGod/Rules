@@ -2,62 +2,62 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-07-20 23:25:19
-HOST,cdn.usefathom.com,🤖 AI Platforms
-HOST-SUFFIX,anthropic.com,🤖 AI Platforms
-HOST-SUFFIX,claude.ai,🤖 AI Platforms
+HOST,cdn.usefathom.com,🤖AI
+HOST-SUFFIX,anthropic.com,🤖AI
+HOST-SUFFIX,claude.ai,🤖AI
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-07-20 23:25:18
-HOST-SUFFIX,ai.com,🤖 AI Platforms
-HOST-SUFFIX,auth0.com,🤖 AI Platforms
-HOST-SUFFIX,challenges.cloudflare.com,🤖 AI Platforms
-HOST-SUFFIX,client-api.arkoselabs.com,🤖 AI Platforms
-HOST-SUFFIX,events.statsigapi.net,🤖 AI Platforms
-HOST-SUFFIX,featuregates.org,🤖 AI Platforms
-HOST-SUFFIX,identrust.com,🤖 AI Platforms
-HOST-SUFFIX,intercom.io,🤖 AI Platforms
-HOST-SUFFIX,intercomcdn.com,🤖 AI Platforms
-HOST-SUFFIX,poe.com,🤖 AI Platforms
-HOST-SUFFIX,sentry.io,🤖 AI Platforms
-HOST-SUFFIX,stripe.com,🤖 AI Platforms
-HOST-KEYWORD,🤖 AI Platforms,🤖 AI Platforms
+HOST-SUFFIX,ai.com,🤖AI
+HOST-SUFFIX,auth0.com,🤖AI
+HOST-SUFFIX,challenges.cloudflare.com,🤖AI
+HOST-SUFFIX,client-api.arkoselabs.com,🤖AI
+HOST-SUFFIX,events.statsigapi.net,🤖AI
+HOST-SUFFIX,featuregates.org,🤖AI
+HOST-SUFFIX,identrust.com,🤖AI
+HOST-SUFFIX,intercom.io,🤖AI
+HOST-SUFFIX,intercomcdn.com,🤖AI
+HOST-SUFFIX,poe.com,🤖AI
+HOST-SUFFIX,sentry.io,🤖AI
+HOST-SUFFIX,stripe.com,🤖AI
+HOST-KEYWORD,🤖AI,🤖AI
 
 # https://bard.google.com/
 # created by limbopro
 # repo:https://github.com/limbopro/Profiles4limbo/
-DOMAIN-SUFFIX,google.com,🤖 AI Platforms
-DOMAIN-SUFFIX,apis.google.com,🤖 AI Platforms
-DOMAIN-SUFFIX,bard.google.com,🤖 AI Platforms
-DOMAIN-SUFFIX,in.appcenter.ms,🤖 AI Platforms
-DOMAIN-SUFFIX,ogs.google.com,🤖 AI Platforms
-DOMAIN-SUFFIX,www.google.com,🤖 AI Platforms
+DOMAIN-SUFFIX,google.com,🤖AI
+DOMAIN-SUFFIX,apis.google.com,🤖AI
+DOMAIN-SUFFIX,bard.google.com,🤖AI
+DOMAIN-SUFFIX,in.appcenter.ms,🤖AI
+DOMAIN-SUFFIX,ogs.google.com,🤖AI
+DOMAIN-SUFFIX,www.google.com,🤖AI
 
 # NAME: Bing
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-07-20 23:25:18
-HOST-SUFFIX,bing.com,🤖 AI Platforms
-HOST-SUFFIX,bing.com.cn,🤖 AI Platforms
-HOST-SUFFIX,bing.net,🤖 AI Platforms
-HOST-SUFFIX,bingads.com,🤖 AI Platforms
-HOST-SUFFIX,bingagencyawards.com,🤖 AI Platforms
-HOST-SUFFIX,bingapistatistics.com,🤖 AI Platforms
-HOST-SUFFIX,bingsandbox.com,🤖 AI Platforms
-HOST-SUFFIX,bingvisualsearch.com,🤖 AI Platforms
-HOST-SUFFIX,bingworld.com,🤖 AI Platforms
-HOST-SUFFIX,bluehatnights.com,🤖 AI Platforms
-HOST-SUFFIX,dictate.ms,🤖 AI Platforms
-HOST-SUFFIX,ditu.live.com,🤖 AI Platforms
-HOST-SUFFIX,flipwithsurface.com,🤖 AI Platforms
-HOST-SUFFIX,masalladeloslimites.com,🤖 AI Platforms
-HOST-SUFFIX,microsoft-give.com,🤖 AI Platforms
-HOST-SUFFIX,microsoftcloudsummit.com,🤖 AI Platforms
-HOST-SUFFIX,microsoftdiplomados.com,🤖 AI Platforms
-HOST-SUFFIX,microsoftlatamholiday.com,🤖 AI Platforms
-HOST-SUFFIX,microsoftmxfilantropia.com,🤖 AI Platforms
-HOST-SUFFIX,microsoftpartnersolutions.com,🤖 AI Platforms
-HOST-SUFFIX,msunlimitedcloudsummit.com,🤖 AI Platforms
-HOST-SUFFIX,renovacionoffice.com,🤖 AI Platforms
-HOST-SUFFIX,sprinklesapp.com,🤖 AI Platforms
+HOST-SUFFIX,bing.com,🤖AI
+HOST-SUFFIX,bing.com.cn,🤖AI
+HOST-SUFFIX,bing.net,🤖AI
+HOST-SUFFIX,bingads.com,🤖AI
+HOST-SUFFIX,bingagencyawards.com,🤖AI
+HOST-SUFFIX,bingapistatistics.com,🤖AI
+HOST-SUFFIX,bingsandbox.com,🤖AI
+HOST-SUFFIX,bingvisualsearch.com,🤖AI
+HOST-SUFFIX,bingworld.com,🤖AI
+HOST-SUFFIX,bluehatnights.com,🤖AI
+HOST-SUFFIX,dictate.ms,🤖AI
+HOST-SUFFIX,ditu.live.com,🤖AI
+HOST-SUFFIX,flipwithsurface.com,🤖AI
+HOST-SUFFIX,masalladeloslimites.com,🤖AI
+HOST-SUFFIX,microsoft-give.com,🤖AI
+HOST-SUFFIX,microsoftcloudsummit.com,🤖AI
+HOST-SUFFIX,microsoftdiplomados.com,🤖AI
+HOST-SUFFIX,microsoftlatamholiday.com,🤖AI
+HOST-SUFFIX,microsoftmxfilantropia.com,🤖AI
+HOST-SUFFIX,microsoftpartnersolutions.com,🤖AI
+HOST-SUFFIX,msunlimitedcloudsummit.com,🤖AI
+HOST-SUFFIX,renovacionoffice.com,🤖AI
+HOST-SUFFIX,sprinklesapp.com,🤖AI
