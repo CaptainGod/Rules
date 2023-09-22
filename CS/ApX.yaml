@@ -233,6 +233,11 @@ proxy-groups:
       - ❇️ 手动
       - DIRECT
 rules:
+ - DOMAIN-SUFFIX,notion-static.com,🤖 AI助手
+ - DOMAIN-SUFFIX,notion.com,🤖 AI助手
+ - DOMAIN-SUFFIX,notion.new,🤖 AI助手
+ - DOMAIN-SUFFIX,notion.site,🤖 AI助手
+ - DOMAIN-SUFFIX,notion.so,🤖 AI助手
  - DOMAIN,cdn.usefathom.com,🤖 AI助手
  - DOMAIN-SUFFIX,anthropic.com,🤖 AI助手
  - DOMAIN-SUFFIX,claude.ai,🤖 AI助手
