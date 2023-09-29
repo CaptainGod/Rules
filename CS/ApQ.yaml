@@ -10,7 +10,7 @@ proxies:
   - {name: 🇭🇰 香港3, server: hk5.jiedian.stream, port: 80, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇭🇰 香港4, server: hk.jiedian.stream, port: 10000, type: ss, cipher: aes-128-gcm, password: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8}
   - {name: 🇨🇳 台湾1, server: tw1.jiedian.stream, port: 80, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇨🇳 台湾2, server: tw2.jiedian.stream, port: 81, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇨🇳 台湾2, server: tw2.jiedian.stream, port: 80, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾3, server: tw3.jiedian.stream, port: 80, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾4, server: tw4.jiedian.stream, port: 80, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇯🇵 日本1, server: jp1.jiedian.stream, port: 80, type: vmess, uuid: fbfda1d4-1ba4-4b91-a2c2-f2464be9aef8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
