@@ -71,26 +71,49 @@ proxy-groups:
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-  - name: 🤖 AI助手
+  - name: 📒 Notion
     type: select
     proxies:
+      - DIRECT
       - ✳️ 自动
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - ❇️ 手动
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
       - 🇨🇳 台湾4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+  - name: 🤖 AI助手
+    type: select
+    proxies:
+      - ✳️ 自动
+      - ❇️ 手动
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
   - name: 📧 电报信息
     type: select
     proxies:
@@ -207,6 +230,14 @@ proxy-groups:
       - ❇️ 手动
       - DIRECT
 rules:
+# 📒 Notion
+ - DOMAIN-SUFFIX,notion-static.com,📒 Notion
+ - DOMAIN-SUFFIX,notion.com,📒 Notion
+ - DOMAIN-SUFFIX,notion.new,📒 Notion
+ - DOMAIN-SUFFIX,notion.site,📒 Notion
+ - DOMAIN-SUFFIX,notion.so,📒 Notion
+
+# 🤖 AI助手
  - DOMAIN-SUFFIX,notion-static.com,🤖 AI助手
  - DOMAIN-SUFFIX,notion.com,🤖 AI助手
  - DOMAIN-SUFFIX,notion.new,🤖 AI助手
@@ -261,6 +292,8 @@ rules:
  - DOMAIN-SUFFIX,ditu.live.com,🤖 AI助手
  - DOMAIN,bj1.api.bing.com,🤖 AI助手
  - DOMAIN,emoi-cncdn.bing.com,🤖 AI助手
+
+# 📧 电报信息
  - DOMAIN-SUFFIX,t.me,📧 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📧 电报信息
  - DOMAIN-SUFFIX,telegra.ph,📧 电报信息
@@ -273,6 +306,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,📧 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📧 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📧 电报信息,no-resolve
+
+# 📺 国外媒体
  - DOMAIN-SUFFIX,edgedatg.com,📺 国外媒体
  - DOMAIN-SUFFIX,go.com,📺 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,📺 国外媒体
@@ -583,6 +618,8 @@ rules:
  - DOMAIN-SUFFIX,yt.be,📺 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,📺 国外媒体
  - DOMAIN,music.youtube.com,📺 国外媒体
+
+# 🌍 国外网站
  - DOMAIN-SUFFIX,1password.com,🌍 国外网站
  - DOMAIN-SUFFIX,adguard.org,🌍 国外网站
  - DOMAIN-SUFFIX,bit.no.com,🌍 国外网站
@@ -995,6 +1032,8 @@ rules:
  - DOMAIN-SUFFIX,ocnttv.com,🌍 国外网站
  - DOMAIN-SUFFIX,vikacg.com,🌍 国外网站
  - DOMAIN-SUFFIX,picjs.xyz,🌍 国外网站
+
+# 📢 谷歌FCM
  - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -1030,6 +1069,8 @@ rules:
  - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
+
+# Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -1107,6 +1148,8 @@ rules:
  - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+
+# 🍎 苹果服务
  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
@@ -1135,6 +1178,8 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+
+# 🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2165,6 +2210,8 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+
+# 🍃 应用净化
  - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
  - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
@@ -3188,6 +3235,8 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
+
+# 🛑 全球拦截
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -3780,4 +3829,5 @@ rules:
  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+
  - MATCH,🐟 漏网之鱼
