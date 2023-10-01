@@ -315,152 +315,153 @@ rules:
  - DOMAIN,emoi-cncdn.bing.com,🤖 AI助手
 
 # 🏞️ Adobe
- - DOMAIN,adobeereg.com
- - DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
- - DOMAIN,crl.versign.net
- - DOMAIN,ood.opsource.net
- - DOMAIN,practivate.adobe
- - DOMAIN,practivate.adobe.ipp
- - DOMAIN,practivate.adobe.newoa
- - DOMAIN,practivate.adobe.ntp
- - DOMAIN-SUFFIX,10xfotolia.com
- - DOMAIN-SUFFIX,2o7.net
- - DOMAIN-SUFFIX,acrobat.com
- - DOMAIN-SUFFIX,adbecrsl.com
- - DOMAIN-SUFFIX,adobe-aemassets-value.com
- - DOMAIN-SUFFIX,adobe-audience-finder.com
- - DOMAIN-SUFFIX,adobe-video-partner-finder.com
- - DOMAIN-SUFFIX,adobe.com
- - DOMAIN-SUFFIX,adobe.io
- - DOMAIN-SUFFIX,adobe.ly
- - DOMAIN-SUFFIX,adobeaemcloud.com
- - DOMAIN-SUFFIX,adobeaemcloud.net
- - DOMAIN-SUFFIX,adobeawards.com
- - DOMAIN-SUFFIX,adobecc.com
- - DOMAIN-SUFFIX,adobecce.com
- - DOMAIN-SUFFIX,adobeccstatic.com
- - DOMAIN-SUFFIX,adobecontent.io
- - DOMAIN-SUFFIX,adobecreativityawards.com
- - DOMAIN-SUFFIX,adobedc.cn
- - DOMAIN-SUFFIX,adobedc.net
- - DOMAIN-SUFFIX,adobedemo.com
- - DOMAIN-SUFFIX,adobedtm.com
- - DOMAIN-SUFFIX,adobeexchange.com
- - DOMAIN-SUFFIX,adobeexperienceawards.com
- - DOMAIN-SUFFIX,adobegov.com
- - DOMAIN-SUFFIX,adobehiddentreasures.com
- - DOMAIN-SUFFIX,adobejanus.com
- - DOMAIN-SUFFIX,adobeku.com
- - DOMAIN-SUFFIX,adobelanding.com
- - DOMAIN-SUFFIX,adobelogin.com
- - DOMAIN-SUFFIX,adobeoobe.com
- - DOMAIN-SUFFIX,adobeplatinumclub.com
- - DOMAIN-SUFFIX,adobeprojectm.com
- - DOMAIN-SUFFIX,adobesc.com
- - DOMAIN-SUFFIX,adobesign.com
- - DOMAIN-SUFFIX,adobesigncdn.com
- - DOMAIN-SUFFIX,adobespark.com
- - DOMAIN-SUFFIX,adobess.com
- - DOMAIN-SUFFIX,adobestock.com
- - DOMAIN-SUFFIX,adobetag.com
- - DOMAIN-SUFFIX,adobetarget.com
- - DOMAIN-SUFFIX,adobetcstrialdvd.com
- - DOMAIN-SUFFIX,adobetechcomm.com
- - DOMAIN-SUFFIX,adobetechcommcallback.com
- - DOMAIN-SUFFIX,adobetechcommdemo.com
- - DOMAIN-SUFFIX,adobexdplatform.com
- - DOMAIN-SUFFIX,assetsadobe.com
- - DOMAIN-SUFFIX,authorxml.com
- - DOMAIN-SUFFIX,bam.nr-data.net
- - DOMAIN-SUFFIX,behance.net
- - DOMAIN-SUFFIX,bluefootcms.com
- - DOMAIN-SUFFIX,businesscatalyst.com
- - DOMAIN-SUFFIX,ccnsite.com
- - DOMAIN-SUFFIX,ccpsx.com
- - DOMAIN-SUFFIX,compresspdf.new
- - DOMAIN-SUFFIX,cotolia.com
- - DOMAIN-SUFFIX,creativecloud.com
- - DOMAIN-SUFFIX,creativesdk.com
- - DOMAIN-SUFFIX,demandbase.com
- - DOMAIN-SUFFIX,demdex.net
- - DOMAIN-SUFFIX,developria.com
- - DOMAIN-SUFFIX,digicert.com
- - DOMAIN-SUFFIX,dollarfotoclub.com
- - DOMAIN-SUFFIX,dollarphotoclub.com
- - DOMAIN-SUFFIX,dollarphotosclub.com
- - DOMAIN-SUFFIX,douwriteright.com
- - DOMAIN-SUFFIX,echocdn.com
- - DOMAIN-SUFFIX,echosign.com
- - DOMAIN-SUFFIX,edgefonts.net
- - DOMAIN-SUFFIX,enablementadobe.com
- - DOMAIN-SUFFIX,ffotolia.com
- - DOMAIN-SUFFIX,fiotolia.com
- - DOMAIN-SUFFIX,foftolia.com
- - DOMAIN-SUFFIX,fonolia.com
- - DOMAIN-SUFFIX,fotiolia.com
- - DOMAIN-SUFFIX,fotoiia.com
- - DOMAIN-SUFFIX,fotolia-noticias.com
- - DOMAIN-SUFFIX,fotolia.cc
- - DOMAIN-SUFFIX,fotolia.com
- - DOMAIN-SUFFIX,fotolia.tv
- - DOMAIN-SUFFIX,fotolja.com
- - DOMAIN-SUFFIX,fptolia.com
- - DOMAIN-SUFFIX,ftcdn.net
- - DOMAIN-SUFFIX,geotrust.com
- - DOMAIN-SUFFIX,gfotolia.com
- - DOMAIN-SUFFIX,globalsign.com
- - DOMAIN-SUFFIX,godaddy.com
- - DOMAIN-SUFFIX,gostorego.com
- - DOMAIN-SUFFIX,imagineecommerce.com
- - DOMAIN-SUFFIX,macromedia.com
- - DOMAIN-SUFFIX,mageconf.com
- - DOMAIN-SUFFIX,mageconf.com.ua
- - DOMAIN-SUFFIX,magento.com
- - DOMAIN-SUFFIX,magento.net
- - DOMAIN-SUFFIX,magentocommerce.com
- - DOMAIN-SUFFIX,magentoliveconference.com
- - DOMAIN-SUFFIX,magentomobile.com
- - DOMAIN-SUFFIX,marketing-cloud.com
- - DOMAIN-SUFFIX,marketing-nirvana.com
- - DOMAIN-SUFFIX,marketo.co.uk
- - DOMAIN-SUFFIX,marketo.com
- - DOMAIN-SUFFIX,marketo.net
- - DOMAIN-SUFFIX,marketo.tv
- - DOMAIN-SUFFIX,marketodesigner.com
- - DOMAIN-SUFFIX,marketolive.com
- - DOMAIN-SUFFIX,mktdns.com
- - DOMAIN-SUFFIX,mkto-c0100.com
- - DOMAIN-SUFFIX,mktorest.com
- - DOMAIN-SUFFIX,mktroute.com
- - DOMAIN-SUFFIX,mobilemarketo.com
- - DOMAIN-SUFFIX,motolia.com
- - DOMAIN-SUFFIX,newrelic.com
- - DOMAIN-SUFFIX,omniroot.com
- - DOMAIN-SUFFIX,omniture.com
- - DOMAIN-SUFFIX,omtrdc.net
- - DOMAIN-SUFFIX,pdf.new
- - DOMAIN-SUFFIX,photolia.net
- - DOMAIN-SUFFIX,photoshop.com
- - DOMAIN-SUFFIX,placesdocs.com
- - DOMAIN-SUFFIX,revenue-performance-management.com
- - DOMAIN-SUFFIX,s2stagehance.com
- - DOMAIN-SUFFIX,scene7.com
- - DOMAIN-SUFFIX,sign.new
- - DOMAIN-SUFFIX,sundanceignite2016.com
- - DOMAIN-SUFFIX,symantec.com
- - DOMAIN-SUFFIX,symcb.com
- - DOMAIN-SUFFIX,symcd.com
- - DOMAIN-SUFFIX,tenbyfotolia.com
- - DOMAIN-SUFFIX,thawte.com
- - DOMAIN-SUFFIX,toutapp.com
- - DOMAIN-SUFFIX,tubemogul.com
- - DOMAIN-SUFFIX,typekit.com
- - DOMAIN-SUFFIX,typekit.net
- - DOMAIN-SUFFIX,verisign.com
- - DOMAIN-SUFFIX,votolia.com
- - DOMAIN-SUFFIX,worldsecureemail.com
- - DOMAIN-SUFFIX,worldsecuresystems.com
- - DOMAIN-KEYWORD,adobe
+ - DOMAIN,adobeereg.com,🏞️ Adobe
+ - DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com,🏞️ Adobe
+ - DOMAIN,crl.versign.net,🏞️ Adobe
+ - DOMAIN,ood.opsource.net,🏞️ Adobe
+ - DOMAIN,practivate.adobe,🏞️ Adobe
+ - DOMAIN,practivate.adobe.ipp,🏞️ Adobe
+ - DOMAIN,practivate.adobe.newoa,🏞️ Adobe
+ - DOMAIN,practivate.adobe.ntp,🏞️ Adobe
+ - DOMAIN-SUFFIX,10xfotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,2o7.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,acrobat.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adbecrsl.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe-aemassets-value.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe-audience-finder.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe-video-partner-finder.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe.io,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe.ly,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeaemcloud.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeaemcloud.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeawards.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecc.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecce.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeccstatic.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecontent.io,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecreativityawards.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedc.cn,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedc.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedemo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedtm.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeexchange.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeexperienceawards.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobegov.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobehiddentreasures.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobejanus.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeku.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobelanding.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobelogin.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeoobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeplatinumclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeprojectm.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobesc.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobesign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobesigncdn.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobespark.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobess.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobestock.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetag.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetarget.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetcstrialdvd.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetechcomm.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetechcommcallback.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetechcommdemo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobexdplatform.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,assetsadobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,authorxml.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,bam.nr-data.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,behance.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,bluefootcms.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,businesscatalyst.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ccnsite.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ccpsx.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,compresspdf.new,🏞️ Adobe
+ - DOMAIN-SUFFIX,cotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,creativecloud.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,creativesdk.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,demandbase.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,demdex.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,developria.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,digicert.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,dollarfotoclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,dollarphotoclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,dollarphotosclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,douwriteright.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,echocdn.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,echosign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,edgefonts.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,enablementadobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ffotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fiotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,foftolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fonolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotiolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotoiia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia-noticias.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia.cc,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia.tv,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolja.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fptolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ftcdn.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,geotrust.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,gfotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,globalsign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,godaddy.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,gostorego.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,imagineecommerce.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,macromedia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mageconf.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mageconf.com.ua,🏞️ Adobe
+ - DOMAIN-SUFFIX,magento.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,magento.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,magentocommerce.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,magentoliveconference.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,magentomobile.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketing-cloud.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketing-nirvana.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.co.uk,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.tv,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketodesigner.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketolive.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mktdns.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mkto-c0100.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mktorest.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mktroute.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mobilemarketo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,motolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,newrelic.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,omniroot.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,omniture.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,omtrdc.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,pdf.new,🏞️ Adobe
+ - DOMAIN-SUFFIX,photolia.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,photoshop.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,placesdocs.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,revenue-performance-management.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,s2stagehance.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,scene7.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,sign.new,🏞️ Adobe
+ - DOMAIN-SUFFIX,sundanceignite2016.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,symantec.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,symcb.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,symcd.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,tenbyfotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,thawte.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,toutapp.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,tubemogul.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,typekit.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,typekit.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,verisign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,votolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,worldsecureemail.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,worldsecuresystems.com,🏞️ Adobe
+ - DOMAIN-KEYWORD,adobe,🏞️ Adobe
+
 # 📧 电报信息
  - DOMAIN-SUFFIX,t.me,📧 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📧 电报信息
