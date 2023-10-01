@@ -32,10 +32,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
@@ -75,48 +71,70 @@ proxy-groups:
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国4
-  - name: 🔄 自动AI
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+  - name: 📒 Notion
+    type: select
     proxies:
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - DIRECT
+      - ✳️ 自动
+      - ❇️ 手动
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
       - 🇨🇳 台湾4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
   - name: 🤖 AI助手
     type: select
     proxies:
-      - 🔄 自动AI
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇯🇵 日本3
-      - 🇯🇵 日本4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - ✳️ 自动
+      - ❇️ 手动
       - 🇨🇳 台湾1
       - 🇨🇳 台湾2
       - 🇨🇳 台湾3
       - 🇨🇳 台湾4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+  - name: 🏞️ Adobe
+    type: select
+    proxies:
+      - ✳️ 自动
+      - ❇️ 手动
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
   - name: 📧 电报信息
     type: select
     proxies:
@@ -233,6 +251,14 @@ proxy-groups:
       - ❇️ 手动
       - DIRECT
 rules:
+# 📒 Notion
+ - DOMAIN-SUFFIX,notion-static.com,📒 Notion
+ - DOMAIN-SUFFIX,notion.com,📒 Notion
+ - DOMAIN-SUFFIX,notion.new,📒 Notion
+ - DOMAIN-SUFFIX,notion.site,📒 Notion
+ - DOMAIN-SUFFIX,notion.so,📒 Notion
+
+# 🤖 AI助手
  - DOMAIN-SUFFIX,notion-static.com,🤖 AI助手
  - DOMAIN-SUFFIX,notion.com,🤖 AI助手
  - DOMAIN-SUFFIX,notion.new,🤖 AI助手
@@ -287,6 +313,155 @@ rules:
  - DOMAIN-SUFFIX,ditu.live.com,🤖 AI助手
  - DOMAIN,bj1.api.bing.com,🤖 AI助手
  - DOMAIN,emoi-cncdn.bing.com,🤖 AI助手
+
+# 🏞️ Adobe
+ - DOMAIN,adobeereg.com
+ - DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
+ - DOMAIN,crl.versign.net
+ - DOMAIN,ood.opsource.net
+ - DOMAIN,practivate.adobe
+ - DOMAIN,practivate.adobe.ipp
+ - DOMAIN,practivate.adobe.newoa
+ - DOMAIN,practivate.adobe.ntp
+ - DOMAIN-SUFFIX,10xfotolia.com
+ - DOMAIN-SUFFIX,2o7.net
+ - DOMAIN-SUFFIX,acrobat.com
+ - DOMAIN-SUFFIX,adbecrsl.com
+ - DOMAIN-SUFFIX,adobe-aemassets-value.com
+ - DOMAIN-SUFFIX,adobe-audience-finder.com
+ - DOMAIN-SUFFIX,adobe-video-partner-finder.com
+ - DOMAIN-SUFFIX,adobe.com
+ - DOMAIN-SUFFIX,adobe.io
+ - DOMAIN-SUFFIX,adobe.ly
+ - DOMAIN-SUFFIX,adobeaemcloud.com
+ - DOMAIN-SUFFIX,adobeaemcloud.net
+ - DOMAIN-SUFFIX,adobeawards.com
+ - DOMAIN-SUFFIX,adobecc.com
+ - DOMAIN-SUFFIX,adobecce.com
+ - DOMAIN-SUFFIX,adobeccstatic.com
+ - DOMAIN-SUFFIX,adobecontent.io
+ - DOMAIN-SUFFIX,adobecreativityawards.com
+ - DOMAIN-SUFFIX,adobedc.cn
+ - DOMAIN-SUFFIX,adobedc.net
+ - DOMAIN-SUFFIX,adobedemo.com
+ - DOMAIN-SUFFIX,adobedtm.com
+ - DOMAIN-SUFFIX,adobeexchange.com
+ - DOMAIN-SUFFIX,adobeexperienceawards.com
+ - DOMAIN-SUFFIX,adobegov.com
+ - DOMAIN-SUFFIX,adobehiddentreasures.com
+ - DOMAIN-SUFFIX,adobejanus.com
+ - DOMAIN-SUFFIX,adobeku.com
+ - DOMAIN-SUFFIX,adobelanding.com
+ - DOMAIN-SUFFIX,adobelogin.com
+ - DOMAIN-SUFFIX,adobeoobe.com
+ - DOMAIN-SUFFIX,adobeplatinumclub.com
+ - DOMAIN-SUFFIX,adobeprojectm.com
+ - DOMAIN-SUFFIX,adobesc.com
+ - DOMAIN-SUFFIX,adobesign.com
+ - DOMAIN-SUFFIX,adobesigncdn.com
+ - DOMAIN-SUFFIX,adobespark.com
+ - DOMAIN-SUFFIX,adobess.com
+ - DOMAIN-SUFFIX,adobestock.com
+ - DOMAIN-SUFFIX,adobetag.com
+ - DOMAIN-SUFFIX,adobetarget.com
+ - DOMAIN-SUFFIX,adobetcstrialdvd.com
+ - DOMAIN-SUFFIX,adobetechcomm.com
+ - DOMAIN-SUFFIX,adobetechcommcallback.com
+ - DOMAIN-SUFFIX,adobetechcommdemo.com
+ - DOMAIN-SUFFIX,adobexdplatform.com
+ - DOMAIN-SUFFIX,assetsadobe.com
+ - DOMAIN-SUFFIX,authorxml.com
+ - DOMAIN-SUFFIX,bam.nr-data.net
+ - DOMAIN-SUFFIX,behance.net
+ - DOMAIN-SUFFIX,bluefootcms.com
+ - DOMAIN-SUFFIX,businesscatalyst.com
+ - DOMAIN-SUFFIX,ccnsite.com
+ - DOMAIN-SUFFIX,ccpsx.com
+ - DOMAIN-SUFFIX,compresspdf.new
+ - DOMAIN-SUFFIX,cotolia.com
+ - DOMAIN-SUFFIX,creativecloud.com
+ - DOMAIN-SUFFIX,creativesdk.com
+ - DOMAIN-SUFFIX,demandbase.com
+ - DOMAIN-SUFFIX,demdex.net
+ - DOMAIN-SUFFIX,developria.com
+ - DOMAIN-SUFFIX,digicert.com
+ - DOMAIN-SUFFIX,dollarfotoclub.com
+ - DOMAIN-SUFFIX,dollarphotoclub.com
+ - DOMAIN-SUFFIX,dollarphotosclub.com
+ - DOMAIN-SUFFIX,douwriteright.com
+ - DOMAIN-SUFFIX,echocdn.com
+ - DOMAIN-SUFFIX,echosign.com
+ - DOMAIN-SUFFIX,edgefonts.net
+ - DOMAIN-SUFFIX,enablementadobe.com
+ - DOMAIN-SUFFIX,ffotolia.com
+ - DOMAIN-SUFFIX,fiotolia.com
+ - DOMAIN-SUFFIX,foftolia.com
+ - DOMAIN-SUFFIX,fonolia.com
+ - DOMAIN-SUFFIX,fotiolia.com
+ - DOMAIN-SUFFIX,fotoiia.com
+ - DOMAIN-SUFFIX,fotolia-noticias.com
+ - DOMAIN-SUFFIX,fotolia.cc
+ - DOMAIN-SUFFIX,fotolia.com
+ - DOMAIN-SUFFIX,fotolia.tv
+ - DOMAIN-SUFFIX,fotolja.com
+ - DOMAIN-SUFFIX,fptolia.com
+ - DOMAIN-SUFFIX,ftcdn.net
+ - DOMAIN-SUFFIX,geotrust.com
+ - DOMAIN-SUFFIX,gfotolia.com
+ - DOMAIN-SUFFIX,globalsign.com
+ - DOMAIN-SUFFIX,godaddy.com
+ - DOMAIN-SUFFIX,gostorego.com
+ - DOMAIN-SUFFIX,imagineecommerce.com
+ - DOMAIN-SUFFIX,macromedia.com
+ - DOMAIN-SUFFIX,mageconf.com
+ - DOMAIN-SUFFIX,mageconf.com.ua
+ - DOMAIN-SUFFIX,magento.com
+ - DOMAIN-SUFFIX,magento.net
+ - DOMAIN-SUFFIX,magentocommerce.com
+ - DOMAIN-SUFFIX,magentoliveconference.com
+ - DOMAIN-SUFFIX,magentomobile.com
+ - DOMAIN-SUFFIX,marketing-cloud.com
+ - DOMAIN-SUFFIX,marketing-nirvana.com
+ - DOMAIN-SUFFIX,marketo.co.uk
+ - DOMAIN-SUFFIX,marketo.com
+ - DOMAIN-SUFFIX,marketo.net
+ - DOMAIN-SUFFIX,marketo.tv
+ - DOMAIN-SUFFIX,marketodesigner.com
+ - DOMAIN-SUFFIX,marketolive.com
+ - DOMAIN-SUFFIX,mktdns.com
+ - DOMAIN-SUFFIX,mkto-c0100.com
+ - DOMAIN-SUFFIX,mktorest.com
+ - DOMAIN-SUFFIX,mktroute.com
+ - DOMAIN-SUFFIX,mobilemarketo.com
+ - DOMAIN-SUFFIX,motolia.com
+ - DOMAIN-SUFFIX,newrelic.com
+ - DOMAIN-SUFFIX,omniroot.com
+ - DOMAIN-SUFFIX,omniture.com
+ - DOMAIN-SUFFIX,omtrdc.net
+ - DOMAIN-SUFFIX,pdf.new
+ - DOMAIN-SUFFIX,photolia.net
+ - DOMAIN-SUFFIX,photoshop.com
+ - DOMAIN-SUFFIX,placesdocs.com
+ - DOMAIN-SUFFIX,revenue-performance-management.com
+ - DOMAIN-SUFFIX,s2stagehance.com
+ - DOMAIN-SUFFIX,scene7.com
+ - DOMAIN-SUFFIX,sign.new
+ - DOMAIN-SUFFIX,sundanceignite2016.com
+ - DOMAIN-SUFFIX,symantec.com
+ - DOMAIN-SUFFIX,symcb.com
+ - DOMAIN-SUFFIX,symcd.com
+ - DOMAIN-SUFFIX,tenbyfotolia.com
+ - DOMAIN-SUFFIX,thawte.com
+ - DOMAIN-SUFFIX,toutapp.com
+ - DOMAIN-SUFFIX,tubemogul.com
+ - DOMAIN-SUFFIX,typekit.com
+ - DOMAIN-SUFFIX,typekit.net
+ - DOMAIN-SUFFIX,verisign.com
+ - DOMAIN-SUFFIX,votolia.com
+ - DOMAIN-SUFFIX,worldsecureemail.com
+ - DOMAIN-SUFFIX,worldsecuresystems.com
+ - DOMAIN-KEYWORD,adobe
+# 📧 电报信息
  - DOMAIN-SUFFIX,t.me,📧 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📧 电报信息
  - DOMAIN-SUFFIX,telegra.ph,📧 电报信息
@@ -299,6 +474,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,📧 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📧 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📧 电报信息,no-resolve
+
+# 📺 国外媒体
  - DOMAIN-SUFFIX,edgedatg.com,📺 国外媒体
  - DOMAIN-SUFFIX,go.com,📺 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,📺 国外媒体
@@ -609,6 +786,8 @@ rules:
  - DOMAIN-SUFFIX,yt.be,📺 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,📺 国外媒体
  - DOMAIN,music.youtube.com,📺 国外媒体
+
+# 🌍 国外网站
  - DOMAIN-SUFFIX,1password.com,🌍 国外网站
  - DOMAIN-SUFFIX,adguard.org,🌍 国外网站
  - DOMAIN-SUFFIX,bit.no.com,🌍 国外网站
@@ -1021,6 +1200,8 @@ rules:
  - DOMAIN-SUFFIX,ocnttv.com,🌍 国外网站
  - DOMAIN-SUFFIX,vikacg.com,🌍 国外网站
  - DOMAIN-SUFFIX,picjs.xyz,🌍 国外网站
+
+# 📢 谷歌FCM
  - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
  - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
@@ -1056,6 +1237,8 @@ rules:
  - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
  - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
+
+# Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
  - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -1133,6 +1316,8 @@ rules:
  - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+
+# 🍎 苹果服务
  - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
@@ -1161,6 +1346,8 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+
+# 🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2191,6 +2378,8 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+
+# 🍃 应用净化
  - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
  - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
@@ -3214,6 +3403,8 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
+
+# 🛑 全球拦截
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -3806,4 +3997,5 @@ rules:
  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+
  - MATCH,🐟 漏网之鱼
