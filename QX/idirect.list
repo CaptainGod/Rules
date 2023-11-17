@@ -1,0 +1,14 @@
+# NAME: WebOfScience
+# AUTHOR: Jack
+HOST-SUFFIX,webofscience.com,direct
+HOST-SUFFIX,webofknowledge.com,direct
+HOST-SUFFIX,clarivate.net,direct
+HOST-SUFFIX,clarivate.cn,direct
+HOST-SUFFIX,clarivate.com,direct
+HOST-KEYWORD,clarivate,direct
+HOST-KEYWORD,webofscience,direct
+HOST-KEYWORD,webofknowledge,direct
+
+# NAME: 国内资源
+# AUTHOR: Jack
+HOST-SUFFIX,25mao.com,direct
