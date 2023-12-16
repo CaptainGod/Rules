@@ -5,26 +5,29 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港1, server: hk1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1.xn--tiqu4dr4iwmrchb150l.top}}}
+  - {name: 🇭🇰 香港1, server: hk1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇭🇰 香港2, server: hk2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇭🇰 香港3, server: hk3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇭🇰 香港4, server: hk.jiedian.stream, port: 10000, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
+  - {name: 🇭🇰 香港4, server: hk4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾1, server: tw1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇨🇳 台湾2, server: tw2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇨🇳 台湾2, server: tw2.jiedian.stream, port: 81, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾3, server: tw3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾4, server: tw4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇯🇵 日本1, server: jp1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇯🇵 日本1, server: jp1-1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇯🇵 日本2, server: jp2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇯🇵 日本3, server: jp3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇯🇵 日本4, server: jp4.jiedian.stream, port: 443, type: trojan, password: a6749c65-566b-4791-8da6-478941ab7c0c, sni: gw.alicdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4, server: jp.jiedian.stream, port: 10002, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
   - {name: 🇸🇬 新加坡1, server: sg1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇸🇬 新加坡2, server: sg2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇸🇬 新加坡3, server: sg3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇸🇬 新加坡4, server: sg4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇸🇬 新加坡4, server: sg.jiedian.stream, port: 10003, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
+  - {name: 🇸🇬 新加坡5, server: us.jiedian.stream, port: 10004, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
   - {name: 🇺🇸 美国1, server: us1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国2, server: us2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国3, server: us3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国4, server: us4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇺🇸 美国5, server: us5.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cdn01.top}}}
+  - {name: 🇺🇸 美国6, server: us6.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cdn02.top}}}
 proxy-groups:
   - name: ✳️ 自动
     type: url-test
@@ -94,6 +97,27 @@ proxy-groups:
       - 🇺🇸 美国3
       - 🇺🇸 美国4
   - name: 🤖 AI助手
+    type: select
+    proxies:
+      - ✳️ 自动
+      - ❇️ 手动
+      - 🇨🇳 台湾1
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾3
+      - 🇨🇳 台湾4
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+  - name: 🏞️ Adobe
     type: select
     proxies:
       - ✳️ 自动
@@ -292,6 +316,154 @@ rules:
  - DOMAIN-SUFFIX,ditu.live.com,🤖 AI助手
  - DOMAIN,bj1.api.bing.com,🤖 AI助手
  - DOMAIN,emoi-cncdn.bing.com,🤖 AI助手
+
+# 🏞️ Adobe
+ - DOMAIN,adobeereg.com,🏞️ Adobe
+ - DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com,🏞️ Adobe
+ - DOMAIN,crl.versign.net,🏞️ Adobe
+ - DOMAIN,ood.opsource.net,🏞️ Adobe
+ - DOMAIN,practivate.adobe,🏞️ Adobe
+ - DOMAIN,practivate.adobe.ipp,🏞️ Adobe
+ - DOMAIN,practivate.adobe.newoa,🏞️ Adobe
+ - DOMAIN,practivate.adobe.ntp,🏞️ Adobe
+ - DOMAIN-SUFFIX,10xfotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,2o7.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,acrobat.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adbecrsl.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe-aemassets-value.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe-audience-finder.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe-video-partner-finder.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe.io,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobe.ly,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeaemcloud.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeaemcloud.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeawards.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecc.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecce.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeccstatic.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecontent.io,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobecreativityawards.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedc.cn,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedc.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedemo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobedtm.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeexchange.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeexperienceawards.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobegov.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobehiddentreasures.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobejanus.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeku.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobelanding.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobelogin.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeoobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeplatinumclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobeprojectm.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobesc.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobesign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobesigncdn.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobespark.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobess.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobestock.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetag.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetarget.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetcstrialdvd.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetechcomm.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetechcommcallback.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobetechcommdemo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,adobexdplatform.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,assetsadobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,authorxml.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,bam.nr-data.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,behance.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,bluefootcms.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,businesscatalyst.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ccnsite.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ccpsx.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,compresspdf.new,🏞️ Adobe
+ - DOMAIN-SUFFIX,cotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,creativecloud.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,creativesdk.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,demandbase.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,demdex.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,developria.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,digicert.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,dollarfotoclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,dollarphotoclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,dollarphotosclub.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,douwriteright.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,echocdn.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,echosign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,edgefonts.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,enablementadobe.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ffotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fiotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,foftolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fonolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotiolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotoiia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia-noticias.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia.cc,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolia.tv,🏞️ Adobe
+ - DOMAIN-SUFFIX,fotolja.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,fptolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,ftcdn.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,geotrust.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,gfotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,globalsign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,godaddy.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,gostorego.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,imagineecommerce.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,macromedia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mageconf.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mageconf.com.ua,🏞️ Adobe
+ - DOMAIN-SUFFIX,magento.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,magento.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,magentocommerce.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,magentoliveconference.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,magentomobile.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketing-cloud.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketing-nirvana.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.co.uk,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketo.tv,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketodesigner.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,marketolive.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mktdns.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mkto-c0100.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mktorest.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mktroute.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,mobilemarketo.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,motolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,newrelic.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,omniroot.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,omniture.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,omtrdc.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,pdf.new,🏞️ Adobe
+ - DOMAIN-SUFFIX,photolia.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,photoshop.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,placesdocs.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,revenue-performance-management.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,s2stagehance.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,scene7.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,sign.new,🏞️ Adobe
+ - DOMAIN-SUFFIX,sundanceignite2016.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,symantec.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,symcb.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,symcd.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,tenbyfotolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,thawte.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,toutapp.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,tubemogul.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,typekit.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,typekit.net,🏞️ Adobe
+ - DOMAIN-SUFFIX,verisign.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,votolia.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,worldsecureemail.com,🏞️ Adobe
+ - DOMAIN-SUFFIX,worldsecuresystems.com,🏞️ Adobe
+ - DOMAIN-KEYWORD,adobe,🏞️ Adobe
 
 # 📧 电报信息
  - DOMAIN-SUFFIX,t.me,📧 电报信息
