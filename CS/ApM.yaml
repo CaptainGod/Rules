@@ -9,22 +9,18 @@ proxies:
   - {name: 🇺🇸 美国2, server: us2.speed-mitce.top, port: 443, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇺🇸 美国3, server: us3.speed-mitce.top, port: 10203, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇺🇸 美国4, server: us4.speed-mitce.top, port: 8888, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
-  - {name: 🇺🇸 美国5, server: hy2us.speed-mitce.top, port: 34873, client-fingerprint: chrome, type: hysteria2, password: 6779A058-359C-46DF-8F82-8F016D4CD5A0, sni: hy2usa.vtor.io, skip-cert-verify: false}
   - {name: 🇯🇵 日本1, server: jp1.speed-mitce.top, port: 80, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇯🇵 日本2, server: jp2.speed-mitce.top, port: 443, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇯🇵 日本3, server: jp3.speed-mitce.top, port: 10203, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇯🇵 日本4, server: jp4.speed-mitce.top, port: 8888, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
-  - {name: 🇯🇵 日本5, server: hy2jp.speed-mitce.top, port: 25332, client-fingerprint: chrome, type: hysteria2, password: 6779A058-359C-46DF-8F82-8F016D4CD5A0, sni: hy2jp.vtor.io, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡1, server: sg1.speed-mitce.top, port: 80, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡2, server: sg2.speed-mitce.top, port: 443, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡3, server: sg3.speed-mitce.top, port: 10203, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡4, server: sg4.speed-mitce.top, port: 8888, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡5, server: hy2sg.speed-mitce.top, port: 22637, client-fingerprint: chrome, type: hysteria2, password: 6779A058-359C-46DF-8F82-8F016D4CD5A0, sni: hy2sg.vtor.io, skip-cert-verify: false}
   - {name: 🇬🇧 英国1, server: uk1.speed-mitce.top, port: 80, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇬🇧 英国2, server: uk2.speed-mitce.top, port: 443, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇬🇧 英国3, server: uk3.speed-mitce.top, port: 10203, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
   - {name: 🇬🇧 英国4, server: uk4.speed-mitce.top, port: 8888, reality-opts: {public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b}, client-fingerprint: chrome, type: vless, uuid: 6779A058-359C-46DF-8F82-8F016D4CD5A0, tls: true, tfo: false, servername: s0.awsstatic.com, flow: xtls-rprx-vision, skip-cert-verify: false}
-  - {name: 🇭🇰 香港1, server: hy2hk.speed-mitce.top, port: 32034, client-fingerprint: chrome, type: hysteria2, password: 6779A058-359C-46DF-8F82-8F016D4CD5A0, sni: hy2hk.vtor.io, skip-cert-verify: false}
 proxy-groups:
   - name: ✳️ 自动
     type: url-test
@@ -32,10 +28,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -44,21 +40,17 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: ❇️ 手动
     type: select
     proxies:
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -67,20 +59,20 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 📒 Notion
     type: select
     proxies:
       - DIRECT
       - ✳️ 自动
       - ❇️ 手动
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -89,19 +81,19 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 🤖 AI助手
     type: select
     proxies:
       - ✳️ 自动
       - ❇️ 手动
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -110,19 +102,19 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 🏞️ Adobe
     type: select
     proxies:
       - ✳️ 自动
       - ❇️ 手动
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -131,23 +123,19 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 📧 电报信息
     type: select
     proxies:
       - ✳️ 自动
       - ❇️ 手动
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -156,23 +144,19 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 📺 国外媒体
     type: select
     proxies:
       - ✳️ 自动
       - ❇️ 手动
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -181,23 +165,19 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 🌍 国外网站
     type: select
     proxies:
       - ✳️ 自动
       - ❇️ 手动
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾3
-      - 🇨🇳 台湾4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -206,10 +186,10 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
-      - 🇺🇸 美国4
+      - 🇬🇧 英国1
+      - 🇬🇧 英国2
+      - 🇬🇧 英国3
+      - 🇬🇧 英国4
   - name: 📢 谷歌FCM
     type: select
     proxies:
