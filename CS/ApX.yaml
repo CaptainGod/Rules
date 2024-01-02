@@ -6,25 +6,27 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇭🇰 香港1, server: hk1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇭🇰 香港2, server: hk2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇭🇰 香港3, server: hk5.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇭🇰 香港4, server: hk.jiedian.stream, port: 10000, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
+  - {name: 🇭🇰 香港2, server: hk5.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇭🇰 香港3, server: hk.jiedian.stream, port: 10001, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
   - {name: 🇨🇳 台湾1, server: tw1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇨🇳 台湾2, server: tw2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇨🇳 台湾2, server: tw2.jiedian.stream, port: 81, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾3, server: tw3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇨🇳 台湾4, server: tw4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇯🇵 日本1, server: jp1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇯🇵 日本1, server: jp1-1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇯🇵 日本2, server: jp2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇯🇵 日本3, server: jp3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇯🇵 日本4, server: jp4.jiedian.stream, port: 443, type: trojan, password: a6749c65-566b-4791-8da6-478941ab7c0c, sni: gw.alicdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本4, server: jp.jiedian.stream, port: 10002, type: ss, cipher: aes-128-gcm, password: a6749c65-566b-4791-8da6-478941ab7c0c}
   - {name: 🇸🇬 新加坡1, server: sg1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇸🇬 新加坡2, server: sg2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇸🇬 新加坡3, server: sg3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
-  - {name: 🇸🇬 新加坡4, server: sg4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国1, server: us1.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国2, server: us2.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国3, server: us3.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
   - {name: 🇺🇸 美国4, server: us4.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇺🇸 美国5, server: us5.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cdn01.top}}}
+  - {name: 🇺🇸 美国6, server: us6.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cdn02.top}}}
+  - {name: 🇺🇸 美国7, server: us7.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cdn02.top}}}
+  - {name: 🇺🇸 美国8, server: us8.jiedian.stream, port: 80, type: vmess, uuid: a6749c65-566b-4791-8da6-478941ab7c0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cdn02.top}}}
 proxy-groups:
   - name: ✳️ 自动
     type: url-test
