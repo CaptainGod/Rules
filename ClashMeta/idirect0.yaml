@@ -1,0 +1,10 @@
+payload:
+  # NAME: WebOfScience
+  - '+.webofscience.com'
+  - '+.webofknowledge.com'
+  - '+.clarivate.net'
+  - '+.clarivate.cn'
+  - '+.clarivate.com'
+
+  # NAME: 国内资源
+  - '+.25mao.com'
