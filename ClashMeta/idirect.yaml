@@ -1,0 +1,13 @@
+payload:
+  # NAME: WebOfScience
+  - DOMAIN-SUFFIX,webofscience.com
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,clarivate.net
+  - DOMAIN-SUFFIX,clarivate.cn
+  - DOMAIN-SUFFIX,clarivate.com
+  - HOST-KEYWORD,clarivate
+  - HOST-KEYWORD,webofscience
+  - HOST-KEYWORD,webofknowledge
+
+  # NAME: 国内资源
+  - DOMAIN-SUFFIX,25mao.com
