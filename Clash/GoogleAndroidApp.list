@@ -1,0 +1,37 @@
+## Google服务 ##
+# 谷歌地图
+PROCESS-NAME,com.google.android.apps.maps
+# 谷歌翻译
+PROCESS-NAME,com.google.android.apps.translate
+# 开关控制
+PROCESS-NAME,com.google.android.accessibility.switchaccess
+# 智能镜头
+PROCESS-NAME,com.google.ar.lens
+# Android 无障碍套件
+PROCESS-NAME,com.google.android.marvin.talkback
+# Android Services Library
+PROCESS-NAME,com.google.android.ext.services
+# Android System WebView
+PROCESS-NAME,com.google.android.webview
+# Authenticator
+PROCESS-NAME,com.google.android.apps.authenticator2
+# ConfigUpdater
+PROCESS-NAME,com.google.android.configupdater
+# Gmail
+PROCESS-NAME,com.google.android.gm
+# Google
+PROCESS-NAME,com.google.android.googlequicksearchbox
+# Google 服务框架
+PROCESS-NAME,com.google.android.gsf
+# Google Play 服务
+PROCESS-NAME,com.google.android.gms
+# Google Play 商店
+PROCESS-NAME,com.android.vending
+# Google Play Services for AR
+PROCESS-NAME,com.google.ar.core
+# Print Service Recommendation Service
+PROCESS-NAME,com.google.android.printservice.recommendation
+# DeepL
+PROCESS-NAME,com.deepl.mobiletranslator
+# 沉浸式翻译
+PROCESS-NAME,com.immersivetranslate.browser

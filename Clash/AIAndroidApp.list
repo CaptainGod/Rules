@@ -1,0 +1,10 @@
+## AI ##
+
+# ChatGPT
+PROCESS-NAME,com.openai.chatgpt
+
+# Claude
+PROCESS-NAME,com.anthropic.claude
+
+# Poe
+PROCESS-NAME,com.poe.android

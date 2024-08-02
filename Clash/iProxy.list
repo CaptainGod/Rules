@@ -1,0 +1,44 @@
+# iProxy→指定手动
+
+## Speedtest
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip2location.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,ip.mitce.com 
+DOMAIN-SUFFIX,ip.skk.moe 
+DOMAIN-SUFFIX,ipcheck.ing 
+DOMAIN-SUFFIX,ip.gs 
+DOMAIN-SUFFIX,ipjiance.com 
+
+## AndroidApp
+# FAST
+PROCESS-NAME,com.netflix.Speedtest
+# Speedtest
+PROCESS-NAME,org.zwanoo.android.speedtest
+# GitHub
+PROCESS-NAME,com.github.android
+# Termius
+PROCESS-NAME,com.server.auditor.ssh.client
+# Termux
+PROCESS-NAME,com.termux
+# 代码编辑器
+PROCESS-NAME,com.rhmsoft.code
+# Petal地图
+PROCESS-NAME,com.huawei.maps.app
+
+## 营业厅app ##
+# giffgaff
+PROCESS-NAME,com.giffgaffmobile.controller
+# RedteaGo
+PROCESS-NAME,com.redteamobile.redteago
+# One NZ
+PROCESS-NAME,nz.co.vodafone.android.myaccount
+# Simyo
+PROCESS-NAME,nl.simyo.mijnsimyo
+
