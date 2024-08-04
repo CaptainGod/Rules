@@ -1,14 +1,14 @@
-# USAOnly→指定美国
+# USAOnly
 
-## Ultra Mobile
+# Ultra Mobile
 DOMAIN-SUFFIX,ultramobile.com
 IP-CIDR,208.54.0.0/16,no-resolve
 IP-CIDR,66.94.0.0/16,no-resolve
 IP-CIDR,206.29.177.36/32,no-resolve
 
-## Ultra Mobile AndroidApp
+# Ultra Mobile AndroidApp
 PROCESS-NAME,com.uvnv.ultramobile
 
-## GoogleVoice
+# GoogleVoice
 PROCESS-NAME,com.google.android.apps.googlevoice
 
